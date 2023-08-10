@@ -40,7 +40,7 @@ while True:
     # show thresholded image
      cv2.imshow("mask", mask)
      cv2.imshow("result", result)  
-     time.sleep(1)
+     time.sleep(0.1)
      key = cv2.waitKey(1) & 0xFF
      if key == ord("q"):
         break
