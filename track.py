@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 
 
-cap=cv2.VideoCapture('egg.mp4')
+cap=cv2.VideoCapture('box6.mp4')
 
 def nothing(x):
     pass
