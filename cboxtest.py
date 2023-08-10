@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import time
 from tracker import*
 import cvzone
 
@@ -52,7 +51,6 @@ while True:
 
     cvzone.putTextRect(frame,f"{c1}",(50,60),2,2)
     cv2.imshow("RGB",frame)
-#    time.sleep(0.01)
     if cv2.waitKey(1)&0xFF==27:
         break
 cap.release()
